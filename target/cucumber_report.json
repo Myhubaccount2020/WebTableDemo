@@ -1,0 +1,237 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11117006100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter the url for the demo practice website",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.user_enter_the_url_for_the_demo_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72755800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should land on the demo web table page",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.user_should_land_on_the_demo_web_table_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T03:48:57.868Z",
+        "line": 7,
+        "name": "Verify that we have only 4 structure values",
+        "description": "",
+        "id": "testing-the-demo-web-table-page;verify-that-we-have-only-4-structure-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21925400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that the number of structure values",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.verifyThatTheNumberOfStructureValues()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 97971162000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter the url for the demo practice website",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.user_enter_the_url_for_the_demo_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36874400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should land on the demo web table page",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.user_should_land_on_the_demo_web_table_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T03:49:09.153Z",
+        "line": 11,
+        "name": "Verify that the number of structure values equals to the total",
+        "description": "",
+        "id": "testing-the-demo-web-table-page;verify-that-the-number-of-structure-values-equals-to-the-total",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37872500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the number of structure values equal to the total",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.verifyThatTheNumberOfStructureValuesEqualToTheTotal()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 70722711700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter the url for the demo practice website",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.user_enter_the_url_for_the_demo_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36875000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should land on the demo web table page",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.user_should_land_on_the_demo_web_table_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T03:50:47.203Z",
+        "line": 14,
+        "name": "Read all the values of the table",
+        "description": "",
+        "id": "testing-the-demo-web-table-page;read-all-the-values-of-the-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66777800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Read the values of the table",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.readTheValuesOfTheTable()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 45978712400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter the url for the demo practice website",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.user_enter_the_url_for_the_demo_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52818800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should land on the demo web table page",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.user_should_land_on_the_demo_web_table_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T03:51:58.036Z",
+        "line": 17,
+        "name": "verify that the last row has only two columns",
+        "description": "",
+        "id": "testing-the-demo-web-table-page;verify-that-the-last-row-has-only-two-columns",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20930700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify that the last row has only two columns",
+            "match": {
+              "location": "stepsDefs.DemoWebTableSteps.verifyThatTheLastRowHasOnlyTwoColumns()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the demo web table page",
+    "description": "",
+    "id": "testing-the-demo-web-table-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/demoWebTable.feature",
+    "tags": []
+  }
+]
