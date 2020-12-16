@@ -21,7 +21,9 @@ public class DemoWebTablePage {
     }
 
     public int numOfStructureValues() {
-        List<WebElement> structure = driver.findElements(By.xpath("//table[contains(@class,'tsc_table')]/tbody/tr"));
+
+       // ArrayList<WebElement> stru = (ArrayList<WebElement>) driver.findElements(By.xpath("//table[contains(@class,'tsc_table')]/tbody/tr"));
+       List<WebElement> structure = driver.findElements(By.xpath("//table[contains(@class,'tsc_table')]/tbody/tr"));
         return structure.size();
     }
 
@@ -34,9 +36,13 @@ public class DemoWebTablePage {
     }
 
     public void readValues() {
-        List<WebElement> values = driver.findElements(By.xpath("//table[contains(@class,'tsc_table')]"));
+        /*List<WebElement> values = driver.findElements(By.xpath("//table[contains(@class,'tsc_table')]"));
         for (WebElement val : values) {
             System.out.println(val.getText());
+        }*/
+        List<WebElement> struct = driver.findElements(By.xpath("//table[contains(@class,'tsc_table')]/tbody/tr"));
+        for (int i = 0;i<struct.size();i++){
+            System.out.println(i+"  "+struct.get(i).getText());
         }
     }
 
@@ -55,4 +61,19 @@ public class DemoWebTablePage {
         return  driver.findElements(By.xpath("//table[contains(@class,'tsc_table')]/tfoot/tr/*")).size();
 
     }
+    public String heightofBurjkhalifa(){
+        List<WebElement> rowheaders = driver.findElements(By.xpath("//table[contains(@class,'tsc_table')]/tbody/tr/th"));
+        String height="";
+        for (int i = 0;i<rowheaders.size();i++){
+            String rowheader = rowheaders.get(i).getText();
+            System.out.println(rowheader);
+            if (rowheader.equals("Financial Center")){
+                height= driver.findElement(By.xpath("//table[contains(@class,'tsc_table')]/tbody/tr/td[3]")).getText();
+                System.out.println(height);
+            }
+
+        }
+        return height;
+    }
+
 }

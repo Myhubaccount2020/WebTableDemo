@@ -14,5 +14,9 @@ Feature: Testing the demo web table page
       Scenario: Read all the values of the table
         And Read the values of the table
 
+
         Scenario: verify that the last row has only two columns
           And  verify that the last row has only two columns
+
+          Scenario: verify that Burj khalifa height is 829m
+            And verify the height of buj khalifa
